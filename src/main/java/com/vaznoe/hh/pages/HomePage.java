@@ -32,7 +32,7 @@ public class HomePage extends BasePage {
         return this;
     }
 
-    @Step("Verify Home page opened")
+    @Step("Verify search result")
     public String verifyResult() {
         return $(SEARCH_RESULT).getAttribute("href");
     }
