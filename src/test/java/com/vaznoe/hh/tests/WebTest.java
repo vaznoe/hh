@@ -1,7 +1,9 @@
 package com.vaznoe.hh.tests;
 
 import org.testng.ITestContext;
-import org.testng.annotations.*;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Test;
 
 import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
 
